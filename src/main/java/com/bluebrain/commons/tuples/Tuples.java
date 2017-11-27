@@ -1,4 +1,4 @@
-package tuples;
+package com.bluebrain.commons.tuples;
 
 public class Tuples {
 

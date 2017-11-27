@@ -1,4 +1,4 @@
-package collections;
+package com.bluebrain.commons.collections;
 
 import java.util.ArrayList;
 import java.util.Arrays;

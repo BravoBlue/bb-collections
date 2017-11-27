@@ -1,8 +1,8 @@
-package tuples;
+package com.bluebrain.commons.tuples;
 
 import java.util.List;
 
-import collections.Lists;
+import com.bluebrain.commons.collections.Lists;
 
 public class Tuple<X, Y> {
 
