@@ -8,6 +8,8 @@ import java.util.Set;
 
 public class Sets {
 
+    private Sets() {}
+
     public static final <E> Set<E> empty() {
         return of();
     }

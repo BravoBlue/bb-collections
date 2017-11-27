@@ -8,6 +8,8 @@ import java.util.List;
 
 public class Lists {
 
+    private Lists() {}
+
     public static final <E> List<E> empty() { return of(); }
 
     public static final <E> List<E> of() { return Collections.emptyList(); }

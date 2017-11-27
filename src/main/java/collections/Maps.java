@@ -6,6 +6,8 @@ import java.util.Map;
 
 public class Maps {
 
+    private Maps() {}
+
     public static <K,V> Map<K,V> empty() {
         return of​();
     }

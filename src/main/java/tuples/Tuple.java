@@ -1,4 +1,4 @@
-package Tuples;
+package tuples;
 
 import java.util.List;
 
