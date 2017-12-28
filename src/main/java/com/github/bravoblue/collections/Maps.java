@@ -1,4 +1,4 @@
-package com.bluebrain.commons.collections;
+package com.github.bravoblue.collections;
 
 import java.util.Collections;
 import java.util.HashMap;

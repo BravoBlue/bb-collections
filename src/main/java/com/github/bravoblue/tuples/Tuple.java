@@ -1,8 +1,8 @@
-package com.bluebrain.commons.tuples;
+package com.github.bravoblue.tuples;
 
 import java.util.List;
 
-import com.bluebrain.commons.collections.Lists;
+import com.github.bravoblue.collections.Lists;
 
 public class Tuple<X, Y> {
 

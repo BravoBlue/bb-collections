@@ -1,4 +1,4 @@
-package com.bluebrain.commons.collections;
+package com.github.bravoblue.collections;
 
 import java.util.ArrayList;
 import java.util.Arrays;
