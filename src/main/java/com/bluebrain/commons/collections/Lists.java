@@ -128,11 +128,4 @@ public class Lists {
         return Collections.unmodifiableList(list);
     }
 
-    public static final <E> List<E> add(List<E> list, E element) {
-        List<E> newList = new ArrayList<>();
-        newList.addAll(list);
-        newList.add(element);
-        return Collections.unmodifiableList(newList);
-    }
-
 }

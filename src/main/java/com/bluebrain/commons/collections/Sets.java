@@ -133,11 +133,4 @@ public class Sets {
         return Collections.unmodifiableSet(set);
     }
 
-    public static final <E> Set<E> add(Set<E> set, E element) {
-        Set<E> newSet = new HashSet<>();
-        newSet.addAll(set);
-        newSet.add(element);
-        return Collections.unmodifiableSet(newSet);
-    }
-
 }
