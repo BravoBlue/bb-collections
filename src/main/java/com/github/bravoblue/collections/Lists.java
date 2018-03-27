@@ -128,4 +128,11 @@ public class Lists {
         return Collections.unmodifiableList(list);
     }
 
+    public static <E> List<E> reverse(List<E> list) {
+        List newList = new ArrayList<>();
+        newList.addAll(list);
+        Collections.reverse(newList);
+        return Collections.unmodifiableList(newList);
+    }
+
 }
