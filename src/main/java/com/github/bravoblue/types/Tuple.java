@@ -1,4 +1,4 @@
-package com.github.bravoblue.tuples;
+package com.github.bravoblue.types;
 
 import java.util.List;
 
