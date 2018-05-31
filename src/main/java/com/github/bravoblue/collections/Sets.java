@@ -133,4 +133,9 @@ public class Sets {
         return Collections.unmodifiableSet(set);
     }
 
+    public static final <E> Set<E> copyOf(Set<E> input) {
+        Set<E> set = new HashSet<>(input);
+        return Collections.unmodifiableSet(set);
+    }
+
 }

@@ -135,4 +135,11 @@ public class Lists {
         return Collections.unmodifiableList(newList);
     }
 
+    public static <E> List<E> copyOf(List<E> list) {
+        List newList = new ArrayList<>(list);
+        return Collections.unmodifiableList(newList);
+    }
+
+
+
 }

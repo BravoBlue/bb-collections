@@ -2,7 +2,11 @@ package com.github.bravoblue.collections;
 
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
+
+import com.github.bravoblue.types.Tuple;
 
 public class Maps {
 
@@ -120,5 +124,18 @@ public class Maps {
         }
         return Collections.unmodifiableMap(map);
     }
+
+    public static <K,V> Map<K,V> copyOf(Map<K,V> input) {
+        Map<K,V> map= new HashMap<>(input);
+        return Collections.unmodifiableMap(map);
+    }
+
+    public static <K,V> List<Tuple<K,V>> toTuples(Map<K,V> input) {
+        List<Tuple<K,V>> tupleList= input.entrySet().stream()
+            .map(entry -> Tuple.of(entry.getKey(), entry.getValue()))
+            .collect(Collectors.toList());
+        return Collections.unmodifiableList(tupleList);
+    }
+
 
 }
